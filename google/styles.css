@@ -1,3 +1,114 @@
 body {
-  /* rules go here */
+  padding: 0px 0px 0px 0px;
+  margin: auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Center Class: Use This to Center Divs and Text Within Divs */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    clear: both;
+}
+
+.blackTop {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  text-align: right;
+  font-weight: bold;
+  font-family: "arial";
+  font-size: 16px;
+  vertical-align: middle;
+
+}
+
+/* Button rules */
+button {
+  padding: 5px;
+  background-color: #f5f5f5;
+  font: bold 11px "arial";
+  border: 1px #dcdcdc solid;
+  margin-top: 12px;
+  margin-left: 8px;
+  width: auto;
+}
+
+button:hover {
+  border-top: 1px silver solid;
+  border-left: 1px silver solid;
+  border-right: 1px silver solid;
+  border-bottom: 2px rgba(193,189,189,1) solid;
+}
+
+.searchButtonContainer {
+  width: 99%;
+  float: left;
+}
+
+.searchForm {
+  width: 99%;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+/* Search Box */
+.searchBox {
+  border: 1px gray solid;
+  height: 40px;
+}
+
+.searchBox:hover {
+  border: 1px black solid;
+  height: 40px;
+}
+
+.searchBox:focus {
+  border: 1px blue solid;
+  height: 40px;
+}
+
+.searchBoxContainer {
+  width: 40%;
+  clear: both;
+
+}
+
+/* Google Text Rules */
+.google_word {
+  width: 99%;
+  padding-top: 100px;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.letter_g, .letter_g_1, .letter_o, .letter_o_1, .letter_l, .letter_e {
+  font-size: 96px;
+  font-family: "sans-serif";
+  font-weight:400;
+}
+
+.letter_g, .letter_g_1 {
+  color: #2654dc;
+}
+
+.letter_o, .letter_e {
+  color: red;
+}
+
+.letter_l {
+  color: green;
+}
+
+.letter_o_1 {
+  color: orange;
 }
